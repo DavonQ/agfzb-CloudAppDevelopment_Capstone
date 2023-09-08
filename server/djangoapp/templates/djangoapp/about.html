@@ -1,1 +1,22 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Us</title>
+    <!-- Add any CSS styles or links to external stylesheets here -->
+</head>
+<body>
+    <nav>
+        <!-- Navigation menu with links to home, About Us, and Contact Us pages -->
+        <ul>
+            <li><a href="{% url 'djangoapp:index' %}">Home</a></li>
+            <li><a href="{% url 'djangoapp:about' %}">About Us</a></li>
+            <li><a href="{% url 'djangoapp:contact' %}">Contact Us</a></li>
+            <!-- Add other menu items as needed -->
+        </ul>
+    </nav>
+    <h1>
+        Welcome to Best Cars dealership, home to the best cars in North America. We sell domestic and imported cars at reasonable prices.
+        </h1>
+    <!-- Add any additional content relevant to the Contact Us page here -->
+</body>
+</html>
